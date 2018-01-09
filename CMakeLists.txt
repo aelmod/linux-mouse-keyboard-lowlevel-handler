@@ -3,4 +3,4 @@ project(event_reader C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(event_reader mouse.c presskeys.c)
+add_executable(event_reader main.c presskeys.c)
